@@ -1,5 +1,9 @@
 import torch
 import torchvision
+import os
+
+print(os.getppid())
+dfadf
 
 def get_model():
     return torchvision.models.resnet18(pretrained=True)
@@ -15,5 +19,4 @@ for i in range(1,10000):
     
     
 
-    
     
